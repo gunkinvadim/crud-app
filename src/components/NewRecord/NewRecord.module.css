@@ -1,0 +1,10 @@
+.newRecord {
+    width: 300px;
+    display: flex;
+    flex-direction: column
+}
+
+.newRecord input,
+.newRecord button {
+    margin-top: 5px
+}

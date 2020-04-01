@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.appWrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%)
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 3px
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 3px;
+  background-color: rgb(214, 214, 214);
+  cursor: pointer
+}
+
+button:focus {
+  outline: none
+}

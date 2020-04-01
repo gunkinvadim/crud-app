@@ -1,0 +1,19 @@
+.record {
+    display: flex
+}
+
+.record span {
+    width: 170px
+}
+
+.record span input {
+    width: 160px
+}
+
+.buttons button {
+    margin-left: 5px
+}
+
+.buttons button:first-child {
+    margin-left: 0
+}
